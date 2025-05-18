@@ -1,0 +1,128 @@
+# 🎯 Unit Testing with JUnit and Spring Boot – Full Course Practice Repository
+
+This repository contains my full hands-on practice and implementation based on the **Unit Testing with JUnit and Spring Boot** course. Every section, concept, and project has been fully applied, tested, and customized to enhance understanding.
+
+---
+
+## 📚 Course Contents & Practical Implementation
+
+### 🧪 JUnit Basics
+- Introduction to Unit Testing
+- Writing Basic JUnit Tests
+- Lifecycle Methods (@BeforeEach, @AfterEach)
+- Custom Display Names
+- Assertions:
+  - assertEquals / assertNotEquals
+  - assertNull / assertNotNull
+  - assertSame / assertNotSame
+  - assertTrue / assertFalse
+  - assertArrayEquals / assertLinesMatch / assertIterableEquals
+  - assertThrows / assertTimeout
+
+### 🧬 Test Lifecycle & Organization
+- Test Case Lifecycle
+- Test Ordering with @Order and @TestMethodOrder
+- Conditional Tests using:
+  - @Disabled
+  - @EnabledOnOs, @EnabledOnJre, @EnabledIfEnvironmentVariable
+- Parameterized Tests with @ValueSource, @CsvSource
+
+### 📈 Code Coverage
+- Code Coverage using IntelliJ
+- Code Coverage using Maven + JaCoCo
+
+### 🧠 Test Driven Development (TDD)
+- FizzBuzz Project
+- Red-Green-Refactor Approach
+
+---
+
+## 🚀 Spring Boot Unit Testing
+- Project Setup & Dependencies
+- Testing with `@SpringBootTest`
+- Using application.properties for test configs
+- Testing Spring Beans
+- Working with Prototype Beans
+
+---
+
+## 🧪 Mockito - Mocking Framework
+- Basics of Mockito
+- Creating Mocks and Injecting Dependencies
+- MockitoBean Configuration
+- Throwing Exceptions with Mocks
+
+---
+
+## 🧠 Reflection TestUtils
+- Using Reflection to Test Private Fields/Methods
+
+---
+
+## 💼 Course Project: Student Gradebook System
+
+### 🧩 Service Layer Testing
+- `StudentAndGradeServiceTest`:
+  - Creating Failing Tests
+  - Implementing Service and Repository
+  - Deleting Students
+  - GradeBook Tests
+  - SQL Integration Tests with `@Sql`
+
+### 🖥️ MVC Web Controller Testing
+- Testing GET/POST/DELETE Methods
+- Asserting View Names
+- Handling UI and Error Scenarios
+
+### 🧪 MVC TDD Approach
+- Testing Grade Services (Math, Science, History)
+- Delete Grades and Handle Invalid Data
+- Refactoring with Collections and Reusability
+
+---
+
+## 🗃️ Integration with Databases
+- H2 Embedded DB Setup
+- MySQL Database Schema Creation
+- application-test.properties Configuration
+
+---
+
+## 🌐 REST API Testing
+- Full Coverage of REST Endpoints:
+  - Get All Students
+  - Create Student
+  - Create/Delete Grades
+  - Handle Invalid Inputs via REST
+- GradebookController REST Tests (GET, POST, DELETE)
+
+---
+
+## ✅ Tools & Technologies Used
+- Java
+- JUnit 5
+- Spring Boot
+- Mockito
+- IntelliJ IDEA
+- Maven
+- H2 / MySQL
+- JaCoCo (Code Coverage)
+- Thymeleaf (for Web Views)
+
+---
+
+## 📦 How to Run
+1. Clone the repository.
+2. Navigate to the project folder.
+3. Run tests using:
+   - `mvn test` (for Maven)
+   - or via your IDE (e.g., IntelliJ)
+4. View coverage reports in the `/target/site/jacoco/index.html`
+
+---
+
+## 🙌 Final Words
+
+This repository is the result of actively watching, coding along, and applying each concept from the course. It serves as a complete reference and solid foundation for mastering unit testing in real-world Spring Boot applications.
+
+---
