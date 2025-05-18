@@ -23,4 +23,16 @@ class FizzBuzzTest {
         assertEquals(expected, FizzBuzz.compute(3), "should return Fizz");
     }
 
+    // If number is divisible by 5, print Buzz
+    @Test
+    @DisplayName("Divisible by Five")
+    @Order(1)
+    void testForDivisibleByFive(){
+        //        fail("fail");
+        String expected = "Buzz";
+
+        assertEquals(expected, FizzBuzz.compute(5), "should return Buzz");
+    }
+
+
 }
