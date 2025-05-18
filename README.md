@@ -1,6 +1,24 @@
 # 🎯 Unit Testing with JUnit and Spring Boot – Full Course Practice Repository
 
+![Java](https://img.shields.io/badge/Java-17-blue.svg) 
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-green) 
+![JUnit 5](https://img.shields.io/badge/JUnit-5.9-red)
+![Maven](https://img.shields.io/badge/Maven-3.8-blue)
+
 This repository contains my full hands-on practice and implementation based on the **Unit Testing with JUnit and Spring Boot** course. Every section, concept, and project has been fully applied, tested, and customized to enhance understanding.
+
+---
+
+## 📌 Table of Contents
+- [📚 Course Contents & Practical Implementation](#-course-contents--practical-implementation)
+- [🚀 Spring Boot Unit Testing](#-spring-boot-unit-testing)
+- [🧪 Mockito - Mocking Framework](#-mockito---mocking-framework)
+- [🧠 Reflection TestUtils](#-reflection-testutils)
+- [💼 Course Project: Student Gradebook System](#-course-project-student-gradebook-system)
+- [🌐 REST API Testing](#-rest-api-testing)
+- [✅ Tools & Technologies Used](#-tools--technologies-used)
+- [📦 How to Run](#-how-to-run)
+- [🙌 Final Words](#-final-words)
 
 ---
 
