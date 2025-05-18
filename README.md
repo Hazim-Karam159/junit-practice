@@ -1,6 +1,6 @@
 # 🎯 Unit Testing with JUnit and Spring Boot – Full Course Practice Repository
 
-![Java](https://img.shields.io/badge/Java-17-blue.svg) 
+![Java](https://img.shields.io/badge/Java-21-blue.svg) 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-green) 
 ![JUnit 5](https://img.shields.io/badge/JUnit-5.9-red)
 ![Maven](https://img.shields.io/badge/Maven-3.8-blue)
